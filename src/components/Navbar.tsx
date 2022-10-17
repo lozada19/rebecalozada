@@ -7,7 +7,7 @@ function Navbar() {
         
         <NavLink to="/">Inicio</NavLink>
         <NavLink to="/sobreMi">Sobre mi</NavLink>
-        <NavLink to="/curriculum">Curriculum</NavLink>
+    
         <NavLink to="/Proyectos">Proyectos</NavLink>
         
        
