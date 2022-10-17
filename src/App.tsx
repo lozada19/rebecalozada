@@ -5,8 +5,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Curriculum from './pages/Curriculum';
 import Home from './pages/Home';
-import Proyectos from './pages/Proyectos';
-import SobreMi from './pages/SobreMi';
+import Proyectos from './components/Proyectos';
+import SobreMi from './components/SobreMi';
 
 
 
