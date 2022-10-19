@@ -13,7 +13,7 @@ function Home() {
       </div>
 
       <div className="imformation">
-        <h1 className="title-home">Yuleisys R Lozada O</h1>
+        <h1 className="title-home">Yuleisys Lozada</h1>
         <h5 className="text-home">Desarrolladora Full Stack Junior. </h5>
 
         <div className="icons-home">
