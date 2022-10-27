@@ -26,8 +26,7 @@ function Home() {
           </a>
         </div>
       </div>
-      <SobreMi/>
-      <Proyectos/>
+      
 
     </div>
   );

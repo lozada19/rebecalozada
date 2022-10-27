@@ -4,7 +4,7 @@ import logoIronhack from "../images/logo-ironhack.png"
 
 function SobreMi() {
   return (
-    <div className='container'>
+    <div  className='container'>
 
       <div className='container-about-me'>
        
