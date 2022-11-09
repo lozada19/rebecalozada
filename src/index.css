@@ -30,6 +30,9 @@ p{
 
 header {
   background-color: rgb(245,245,245);
+  width:100% ;
+  position: fixed;
+  z-index: 100;
 }
 
 header .logo {

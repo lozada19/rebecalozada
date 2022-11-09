@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <header>
       <div className="container">
-     <p className="logo">RebLoza</p> 
+        <p className="logo">RebLoza</p>
 
         <nav>
           <a href="#Home">Inicio</a>
