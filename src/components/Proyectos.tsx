@@ -6,83 +6,42 @@ import subirImg from "../images/subir-imag3.png";
 
 function Proyectos() {
   return (
-    <ul id="scrollspyHeading3" className="cards">
-      <li className="card">
-        <a href="https://rebloza.github.io/commute/" className="card">
-          <img className="card__image" src={commuteImg} alt="commute" />
-          <div className="card__overlay">
-            <div className="card__header">
-              <svg className="card__arc" >
-                <path />
-              </svg>
-              <div className="card__header-text">
-                <h3 className="card__title"> Commute</h3>
-              </div>
-            </div>
-            <p className="card__description">
-              Juego de obtaculos, tienes que esquivar los coches
-            </p>
+    <div id="project">
+      <div className="container">
+        <h2>Mis proyectos</h2>
+        <div className="project">
+          <div className="carta">
+            <h3>Commute</h3>
+            <p>Juego de obtaculos, tienes que esquivar los coches</p>
+            <form action="https://rebloza.github.io/commute/">
+            <button>Ver</button>
+            </form>
           </div>
-        </a>
-      </li>
-
-      <li className="card">
-        <a href="https://dogy-events.netlify.app/">
-          <img className="card__image" src={dogyImg} alt="dogy" />
-          <div className="card__overlay">
-            <div className="card__header">
-              <svg className="card__arc" >
-                <path />
-              </svg>
-              <div className="card__header-text">
-                <h3 className="card__title"> Dogy Events</h3>
-              </div>
-            </div>
-            <p className="card__description">
-              Es una app donde puedes hacer evntos para tus perretes
-            </p>
+          <div className="carta">
+            <h3>Tu receta</h3>
+            <p>Es una app donde puedes crea recetas y comentar</p>
+            <form action="">
+            <button>Ver</button>
+            </form>
           </div>
-        </a>
-      </li>
-
-      <li className="card">
-        <a href="" className="card">
-          <img className="card__image" alt="dogy" />
-          <div className="card__overlay">
-            <div className="card__header">
-              <svg className="card__arc" >
-                <path />
-              </svg>
-              <div className="card__header-text">
-                <h3 className="card__title"> Tu receta</h3>
-              </div>
-            </div>
-            <p className="card__description">
-              Es una app donde puedes crea recetas y comentar{" "}
-            </p>
+          <div className="carta">
+            <h3>Dogy Events</h3>
+            <p>Es una app donde puedes hacer evntos para tus perretes</p>
+            <form action="https://dogy-events.netlify.app/">
+            <button>Ver</button>
+            </form>
           </div>
-        </a>
-      </li>
-
-      <li className="card">
-        <a href="" className="card">
-          <img className="card__image" src={subirImg} alt="logo" />
-          <div className="card__overlay">
-            <div className="card__header">
-              <svg className="card__arc" >
-                <path />
-              </svg>
-              <div className="card__header-text">
-                <h3 className="card__title"> Subir imagen</h3>
-              </div>
-            </div>
-            <p className="card__description">
-              Es una app donde puedes hacer evntos para tus perretes
-            </p>
+          <div className="carta">
+            <h3>Subir imagen</h3>
+            <p>subir images de forma rapida</p>
+            <form action="">
+            <button>Ver</button>
+            </form>
           </div>
-        </a>
-      </li>
-    </ul>
+        </div>
+      </div>
+      
+    </div>
   );
 }
 

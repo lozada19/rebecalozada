@@ -1,20 +1,19 @@
-
-import { NavLink } from 'react-router-dom'
+import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <div className='nav-bar' >
-     
-        
-        <NavLink to="/">Inicio</NavLink>
-        <NavLink to="/sobreMi">Sobre mi</NavLink>
-        <NavLink to="/Proyectos">Proyectos</NavLink>
-        
-       
-    </div>
-  )
-    
+    <header>
+      <div className="container">
+     <p className="logo">RebLoza</p> 
+
+        <nav>
+          <a href="#Home">Inicio</a>
+          <a href="#about-me">Sobre mi</a>
+          <a href="#project">Proyectos</a>
+        </nav>
+      </div>
+    </header>
+  );
 }
 
-
-export default Navbar
+export default Navbar;

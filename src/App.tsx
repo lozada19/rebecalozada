@@ -11,11 +11,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/sobreMi" element={<SobreMi />} />
-        <Route path="/proyectos" element={<Proyectos />} />
-      </Routes>
+
+      <Home />
+
+      <SobreMi />
+
+      <Proyectos />
     </div>
   );
 }
