@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
+import PieDePag from "./components/PieDePag";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <SobreMi />
 
       <Proyectos />
+
+      <PieDePag />
     </div>
   );
 }

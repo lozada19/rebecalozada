@@ -6,7 +6,7 @@ import subirImg from "../images/subir-imag3.png";
 
 function Proyectos() {
   return (
-    <div id="project">
+    <div id="my-project">
       <div className="container">
         <h2>Mis proyectos</h2>
         <div className="project">
@@ -38,6 +38,7 @@ function Proyectos() {
             <button>Ver</button>
             </form>
           </div>
+          
         </div>
       </div>
       
