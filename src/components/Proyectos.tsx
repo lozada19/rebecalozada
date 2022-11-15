@@ -1,5 +1,5 @@
 import Card from "./Card";
-import commuteImg from "../images/commute.png";
+import commuteImg from "../images/commute2.png";
 import recetaImg from "../images/compu.jpg"
 import dogyImg from "../images/dogy-events.png";
 import subirImg from "../images/subir-imag3.png";
