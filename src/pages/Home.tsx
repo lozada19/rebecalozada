@@ -1,10 +1,8 @@
 import React from "react";
-import image1 from "../images/playa-2.jpg";
-import imgHome from "../images/image-home.jpg"
+
 import linkedinLogo from "../images/icons8-linkedin.png";
-import githubLogo from "../images/icons-github.png";
-import SobreMi from "../components/SobreMi";
-import Proyectos from "../components/Proyectos";
+import githubLogo from "../images/icons8-github.png";
+
 
 function Home() {
   return (
