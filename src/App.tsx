@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Proyectos from "./components/Proyectos";
 import SobreMi from "./components/SobreMi";
 import PieDePag from "./components/PieDePag";
+import Estudios from "./components/Estudios";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Home />
 
       <SobreMi />
+
+      <Estudios/>
 
       <Proyectos />
 

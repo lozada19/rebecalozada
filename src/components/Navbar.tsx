@@ -17,6 +17,7 @@ function Navbar() {
         <nav>
           <button onClick={ ()=> scrollAnimado("#Home")  }>Inicio</button>
           <button onClick={ ()=> scrollAnimado("#about-me")}>Sobre mi</button>
+          <button onClick={ ()=> scrollAnimado("#my-studies")}>Estudios </button>
           <button onClick={ ()=> scrollAnimado("#my-project")}>Proyectos</button>
         </nav>
       </div>

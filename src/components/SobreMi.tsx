@@ -1,14 +1,12 @@
 import React from "react";
-import background2 from "../images/aryan.jpg";
-import logoIronhack from "../images/logo-ironhack.png";
 
 function SobreMi() {
   return (
     <section id="about-me">
       <div className="container">
-      <h1>Sobre mi</h1>
+        <div className="img-container"></div>
         <div className="texto">
-          <div className="img-container"></div>
+          <h1>Sobre mi</h1>
           <p>
             Soy desarrolladora web recién graduada en Ironhack. Mi misión es
             encontrar un rol como Frontend o Fullstack que maximice mis
@@ -16,18 +14,6 @@ function SobreMi() {
             del trabajo con un equipo excepcional.
           </p>
         </div>
-
-        <div className="texto2">
-          <p>
-            Realice un bootcamp intensivo de desarrollo Web de 9 semanas <br />{" "}
-            Front end technologies : HTML | CSS | JavaScript(ES6) | React |
-            Handlebars <br />
-            Back end technologies : NodeJS | ExpressJS | MongoDB | Axios <br />{" "}
-            Version Control : Git | GitHub9
-          </p>
-          <div className="image-container "></div>
-        </div>
-       
       </div>
     </section>
   );

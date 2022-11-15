@@ -1,8 +1,6 @@
 import React from "react";
 
-import commuteImg from "../images/commute.png";
-import dogyImg from "../images/dogy-events.png";
-import subirImg from "../images/subir-imag3.png";
+
 
 function Proyectos() {
   return (
@@ -38,7 +36,6 @@ function Proyectos() {
             <button>Ver</button>
             </form>
           </div>
-          
         </div>
       </div>
       
