@@ -9,7 +9,7 @@ function Home() {
     <div id="Home" className="hero">
     
       <div className="container">
-        <h1>Yuleisys Lozada</h1>
+        <h1>Rebeca Lozada</h1>
         <h5>Desarrolladora Full Stack Junior. </h5>
 
         <div>
