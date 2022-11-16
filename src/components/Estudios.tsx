@@ -8,7 +8,7 @@ function Estudios() {
       <div className="texto2">
       <h1>Estudios</h1>
         <p>
-          Realice un bootcamp intensivo de desarrollo Web de 9 semanas <br />{" "}
+          Realice un bootcamp intensivo de desarrollo Web de 9 semanas. <br />{" "}
           Front end technologies : HTML | CSS | JavaScript(ES6) | React |
           Handlebars <br />
           Back end technologies : NodeJS | ExpressJS | MongoDB | Axios <br />{" "}
