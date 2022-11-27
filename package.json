@@ -1,7 +1,7 @@
 {
   "name": "lozada",
   "version": "0.1.0",
-  "homepage": "https://lozada19.github.io/rebecalozada.app",
+  "homepage": "https://lozada19.github.io/rebecalozada",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
