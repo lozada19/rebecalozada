@@ -35,6 +35,10 @@ header {
   z-index: 100;
 }
 
+.logo2 {
+  flex-grow: 1;
+}
+
 header .logo {
   margin: 0;
   padding: 15px 10px;
@@ -43,35 +47,66 @@ header .logo {
   font-size: 1.6em;
 }
 
-header .container {
+.menu-navbar {
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  flex-direction: column;
+
 }
 
-header nav {
+.showMenu {
+  width: 100%;
+  list-style: none;
+  height: 100vh;
+  max-width: 290px;
+  margin: 0;
+  background-color: black;
   display: flex;
-  flex-direction: row;
-  text-align: end;
+  flex-direction: column;
+  padding-top: 10px;
 }
 
-header button {
-  font-size: 1em;
-  font-weight: bold;
-  border-radius: 10px;
+.navBurger {
+  display: none;
+}
+
+.showMenu li:first-child {
+  margin-top: 7rem;
+}
+
+
+.botton-burger {
+  background-color: rgba(240, 248, 255, 0);
   border: none;
-  box-shadow: none;
-  padding: 18px 10px;
-  text-decoration: none;
-  font-weight: bold;
+  color: black;
+  width: 42px;
+  height: 42px;
+  padding-left: 8px;
+  padding-top: 10px;
+}
+
+.button-nav {
   color: rgb(253, 253, 253);
   background-color: rgba(245, 245, 245, 0);
+  border: none;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-start;
 }
 
+.solid {
+  border: 0.5px solid white;
+  width: 100%;
+}
 
-header button:hover {
+.button-nav:hover {
   background-color: none;
   color: blueviolet;
+}
+
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
 }
 
 .hero {
@@ -125,7 +160,6 @@ header button:hover {
   margin-right: 10px;
   margin-top: 5px;
   font-weight: lighter;
-
 }
 
 #about-me .container {
@@ -138,7 +172,7 @@ header button:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  
+
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.7),
@@ -177,7 +211,6 @@ header button:hover {
 
 #my-project .container {
   padding: 100px 0px;
- 
 }
 
 #my-project h2 {
@@ -266,16 +299,47 @@ footer .container {
     width: 100%;
   }
 
-  header .container {
+  .menu-navbar {
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    width: 100%;
   }
 
-  header nav {
-    flex-direction: row;
-    padding-bottom: 0;
-    padding-right: 20px;
+  .button-nav {
+    font-size: 1em;
+    font-weight: bold;
+    border: none;
+    padding-top: 0px;
+    box-shadow: none;
+  
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(253, 253, 253);
+    background-color: rgba(255, 0, 0, 0);
   }
+
+  .navBurger {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .showMenu {
+    height: auto;
+    width: 100%;
+
+  }
+
+  .botton-burger {
+    display: none;
+  }
+
+  .solid {
+    display: none;
+  }
+
 
   .hero h1 {
     font-size: 6em;
@@ -284,7 +348,6 @@ footer .container {
 
   .hero h5 {
     font-size: 1.5em;
-
   }
 
   #about-me .container {
@@ -320,7 +383,6 @@ footer .container {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   }
-
 
   #my-studies .container {
     display: flex;
@@ -373,7 +435,7 @@ footer .container {
     height: 250px;
     position: relative;
   }
-  
+
   .image-project {
     height: 100%;
     width: 100%;
@@ -386,7 +448,7 @@ footer .container {
     border: 1px solid rgba(0, 0, 0, 0.3);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
   }
-  
+
   .card-content {
     position: absolute;
     z-index: 100;
@@ -397,7 +459,6 @@ footer .container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
   }
 
   footer .container {
@@ -410,5 +471,4 @@ footer .container {
     max-width: 1700px;
     margin: auto;
   }
-
 }
