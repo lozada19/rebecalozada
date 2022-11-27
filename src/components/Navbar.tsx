@@ -13,7 +13,6 @@ function Navbar() {
     <header>
       <div className="container">
         <p className="logo">RebLoza</p>
-
         <nav>
           <button onClick={ ()=> scrollAnimado("#Home")  }>Inicio</button>
           <button onClick={ ()=> scrollAnimado("#about-me")}>Sobre mi</button>
