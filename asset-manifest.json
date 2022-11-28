@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/rebecalozada/static/css/main.8aaa2803.css",
+    "main.css": "/rebecalozada/static/css/main.29790d8e.css",
     "main.js": "/rebecalozada/static/js/main.e13ec3a8.js",
     "static/js/787.28e3bf56.chunk.js": "/rebecalozada/static/js/787.28e3bf56.chunk.js",
     "static/media/dogy-events.png": "/rebecalozada/static/media/dogy-events.779a61c4e1aea47e07ee.png",
@@ -12,12 +12,12 @@
     "static/media/logo-ironhack.png": "/rebecalozada/static/media/logo-ironhack.0b5f1843668edc481aa3.png",
     "static/media/subir-imag3.png": "/rebecalozada/static/media/subir-imag3.78847d599c84f3ffd4b5.png",
     "index.html": "/rebecalozada/index.html",
-    "main.8aaa2803.css.map": "/rebecalozada/static/css/main.8aaa2803.css.map",
+    "main.29790d8e.css.map": "/rebecalozada/static/css/main.29790d8e.css.map",
     "main.e13ec3a8.js.map": "/rebecalozada/static/js/main.e13ec3a8.js.map",
     "787.28e3bf56.chunk.js.map": "/rebecalozada/static/js/787.28e3bf56.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8aaa2803.css",
+    "static/css/main.29790d8e.css",
     "static/js/main.e13ec3a8.js"
   ]
 }
