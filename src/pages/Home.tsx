@@ -17,7 +17,7 @@ function Home() {
             <img src={linkedinLogo} alt="icom" />
           </a>
 
-          <a href="https://github.com/lozada19/rebecalozada.app">
+          <a href="https://github.com/lozada19?tab=repositories">
             <img src={githubLogo} alt="icons" />
           </a>
         </div>

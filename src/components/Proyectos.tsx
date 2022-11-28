@@ -20,21 +20,21 @@ function Proyectos() {
           <Card
             title="Tu receta"
             name="Es una app donde puedes crea recetas y comentar"
-            action=""
+            action="https://github.com/lozada19/tu-receta"
             img={recetaImg}
           />
 
           <Card
             title="Dogy Events"
             name="Es una app donde puedes hacer evntos para tus perretes"
-            action="https://dogy-events.netlify.app/"
+            action=""
             img={dogyImg}
           />
 
           <Card
-            title="Subir imagen"
-            name="Subir imagen"
-            action=""
+            title="image uploader"
+            name="image uploader"
+            action="https://github.com/lozada19/image-uploader"
             img={subirImg}
           />
 
