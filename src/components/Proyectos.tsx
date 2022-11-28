@@ -13,7 +13,7 @@ function Proyectos() {
           <Card
             title="Commute"
             name="Juego de obtaculos, tienes que esquivar los coches"
-            action="https://rebloza.github.io/commute/"
+            action="https://lozada19.github.io/commute/"
             img={commuteImg}
           />
 
