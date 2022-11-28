@@ -70,10 +70,6 @@ header .logo {
   display: none;
 }
 
-.showMenu li:first-child {
-  margin-top: 7rem;
-}
-
 .botton-burger {
   background-color: rgba(240, 248, 255, 0);
   border: none;
@@ -88,11 +84,12 @@ header .logo {
   color: rgb(253, 253, 253);
   background-color: rgba(245, 245, 245, 0);
   border: none;
-  padding-top: 10px;
+  padding-top: 5px;
   display: flex;
   justify-content: flex-start;
   font-size: 16px;
   font-weight: bold;
+  padding-left: 0px;
 }
 
 .solid {
