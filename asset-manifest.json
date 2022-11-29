@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/rebecalozada/static/css/main.29790d8e.css",
-    "main.js": "/rebecalozada/static/js/main.e13ec3a8.js",
+    "main.js": "/rebecalozada/static/js/main.15946e70.js",
     "static/js/787.28e3bf56.chunk.js": "/rebecalozada/static/js/787.28e3bf56.chunk.js",
     "static/media/dogy-events.png": "/rebecalozada/static/media/dogy-events.779a61c4e1aea47e07ee.png",
-    "static/media/compu.jpg": "/rebecalozada/static/media/compu.a05bcc52e08d08bc1b74.jpg",
     "static/media/pakata.jpg": "/rebecalozada/static/media/pakata.04fd0b62ed08807a61a4.jpg",
     "static/media/libros-2.jpg": "/rebecalozada/static/media/libros-2.76e5ee870d634ebcfab7.jpg",
     "static/media/bola-magica.jpg": "/rebecalozada/static/media/bola-magica.9e30f8f36e826981c668.jpg",
     "static/media/commute2.png": "/rebecalozada/static/media/commute2.16e350390b9e73b9d35b.png",
+    "static/media/tu-receta-foto.png": "/rebecalozada/static/media/tu-receta-foto.4367e5e8392f40d5e9db.png",
     "static/media/logo-ironhack.png": "/rebecalozada/static/media/logo-ironhack.0b5f1843668edc481aa3.png",
     "static/media/subir-imag3.png": "/rebecalozada/static/media/subir-imag3.78847d599c84f3ffd4b5.png",
     "index.html": "/rebecalozada/index.html",
     "main.29790d8e.css.map": "/rebecalozada/static/css/main.29790d8e.css.map",
-    "main.e13ec3a8.js.map": "/rebecalozada/static/js/main.e13ec3a8.js.map",
+    "main.15946e70.js.map": "/rebecalozada/static/js/main.15946e70.js.map",
     "787.28e3bf56.chunk.js.map": "/rebecalozada/static/js/787.28e3bf56.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29790d8e.css",
-    "static/js/main.e13ec3a8.js"
+    "static/js/main.15946e70.js"
   ]
 }
