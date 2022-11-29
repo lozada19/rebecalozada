@@ -1,6 +1,6 @@
 import Card from "./Card";
 import commuteImg from "../images/commute2.png";
-import recetaImg from "../images/tu-receta.png"
+import recetaImg from "../images/tu-receta-foto.png"
 import dogyImg from "../images/dogy-events.png";
 import subirImg from "../images/subir-imag3.png";
 
@@ -16,7 +16,6 @@ function Proyectos() {
             action="https://lozada19.github.io/commute/"
             img={commuteImg}
           />
-
           <Card
             title="Tu receta"
             name="Es una app donde puedes crea recetas y comentar"
@@ -27,7 +26,7 @@ function Proyectos() {
           <Card
             title="Dogy Events"
             name="Es una app donde puedes hacer evntos para tus perretes"
-            action=""
+            action="https://github.com/lozada19/dogy-events-client"
             img={dogyImg}
           />
 
