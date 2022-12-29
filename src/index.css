@@ -49,25 +49,41 @@ header .logo {
 
 .menu-navbar {
   background-color: rgba(255, 0, 0, 0);
-  display: flex;
-  flex-direction: column;
+  
 }
 
 .showMenu {
-  width: 100%;
-  list-style: none;
+  position: fixed;
+  top: 40px;
+  width: 400px;
   height: 100vh;
-  max-width: 290px;
-  margin: 0;
-  background-color: rgba(0, 0, 0, 0);
-  display: flex;
-  flex-direction: column;
-  padding-top: 10px;
-  font-size: 10px;
+  background: #020303c4;
+  transition: all 200ms;
+  overflow: hidden;
 }
 
-.navBurger {
-  display: none;
+ul button {
+  list-style: none;
+  padding: 16px;
+  color: white;
+  cursor: pointer;
+  display: block;
+  width: 400px;
+}
+
+.showMenu ul:hover {
+  background: rgba(243, 238, 238, 0.837);
+}
+
+.hideMenu {
+  position: fixed;
+  padding-left: 0px;
+  top: 40px;
+  width: 0px;
+  height: 100vh;
+  background: #020303c4;
+  transition: all 200ms;
+  overflow: hidden;
 }
 
 .botton-burger {
@@ -96,7 +112,7 @@ header .logo {
   border: 0.5px solid white;
   width: 100%;
 }
- 
+
 .button-nav:hover {
   background-color: none;
   color: blueviolet;
@@ -262,7 +278,6 @@ header .logo {
   margin: 0;
   margin-bottom: 5px;
 }
-
 
 .image-project:hover {
   background-color: rgb(18, 17, 17);

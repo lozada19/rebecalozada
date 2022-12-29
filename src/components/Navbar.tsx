@@ -32,7 +32,7 @@ function Navbar() {
         </div>
         
 
-        <ul className={`${navbarOpen ? "showMenu" : "navBurger"}`}>
+        <ul className={`${navbarOpen ? "showMenu" : "hideMenu"}`}>
           <button className="button-nav" onClick={() => scrollAnimado("#Home")} >
             Inicio
           </button>
