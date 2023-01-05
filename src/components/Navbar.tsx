@@ -4,6 +4,7 @@ import Icon from "../images/burger-menu.png";
 
 function Navbar() {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
 
   const handleToggle = () => {
     setNavbarOpen(!navbarOpen);
@@ -14,26 +15,49 @@ function Navbar() {
   };
 
   const scrollAnimado = (elemento: any) => {
-    closeMenu()
+    closeMenu();
     const destino = document.querySelector(elemento);
     destino.scrollIntoView({
       behavior: "smooth",
     });
   };
 
+  window.addEventListener(
+    "resize",
+    () => {
+      setIsMobile(window.innerWidth < 850);
+    },
+    false
+  );
+
+  let navStyle: string;
+  if (!isMobile) {
+    navStyle = "menuLarge";
+  } else if (navbarOpen) {
+    navStyle = "showMenu";
+  } else {
+    navStyle = "hideMenu";
+  }
+
   return (
     <header>
       <div className="menu-navbar">
         <div className="navbar-logo">
-          <img className="botton-burger" onClick={handleToggle} src={Icon}/>
+          {/*<img className="botton-burger" onClick={handleToggle} src={Icon}/>*/}
+
+          <input type="checkbox" id="menu" onClick={handleToggle} />
+          <label htmlFor="menu" className="menu ">
+            <span id="line1" className="line"></span>
+            <span id="line2" className="line"></span>
+            <span id="line3" className="line"></span>
+          </label>
 
           <div className="logo2" />
           <p className="logo">RebLoza</p>
         </div>
-        
 
-        <ul className={`${navbarOpen ? "showMenu" : "hideMenu"}`}>
-          <button className="button-nav" onClick={() => scrollAnimado("#Home")} >
+        <ul className={navStyle}>
+          <button className="button-nav" onClick={() => scrollAnimado("#Home")}>
             Inicio
           </button>
           <hr className="solid" />
