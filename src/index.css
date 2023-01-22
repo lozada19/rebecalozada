@@ -47,20 +47,34 @@ header .logo {
   font-size: 1.6em;
 }
 
+.navbar-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 .menu-navbar {
   background-color: rgba(255, 0, 0, 0);
 }
 
-#menu,
+
 .menu {
   position: fixed;
-  top: 20px;
-  left: 10px;
-  z-index: 3;
+  z-index: 1;
 }
 
-#menu {
-  display: none;
+.menuButton {
+  margin-left: 20px;
+  display: flex;
+  height: fit-content;
+}
+
+input[type="checkbox"] {
+  width: 35px;
+  height: 28px;
+  margin: 0px;
+  padding: 0px;
+  opacity: 0;
 }
 
 .line {
@@ -155,10 +169,6 @@ ul button {
   color: blueviolet;
 }
 
-.navbar-logo {
-  display: flex;
-  flex-direction: row;
-}
 
 .hero {
   display: flex;
