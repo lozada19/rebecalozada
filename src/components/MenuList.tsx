@@ -28,7 +28,7 @@ const MenuList: React.FC<MenuListProp> = (props: MenuListProp) => {
 
   return (
     <ul className={props.className}>
-      {menuItems.map((item) => (
+      {menuItems.map(item => (
         <div>
           <button className="button-nav" onClick={() => scrollAnimado(item.id)}>
             {item.title}
