@@ -1,10 +1,8 @@
-import { NavLink } from "react-router-dom";
-import { useEffect, useState } from "react";
-import Icon from "../images/burger-menu.png";
+import { useState } from "react";
 import MenuButton from "./MenuButton";
 import MenuList from "./MenuList";
 
-function Navbar() {
+const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(true);
 
