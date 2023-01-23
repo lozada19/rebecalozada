@@ -1,34 +1,34 @@
-#my-project {
+#project {
   background-color: rgb(30, 30, 30);
   color: white;
   text-align: center;
 }
 
-#my-project .container {
+#project .container {
   padding: 100px 0px;
 }
 
-#my-project h2 {
+#project h2 {
   color: white;
   margin: 0;
 }
 
-#my-project p {
+#project p {
   display: none;
 }
 
 @media (min-width: 850px) {
-  #my-project .project {
+  #project .project-card {
     display: flex;
     flex-wrap: wrap;
   }
 
-  #my-project h2 {
+  #project h2 {
     font-size: 4em;
     padding-bottom: 50px;
   }
 
-  #my-project h3 {
+  #project h3 {
     margin-top: 0;
   }
 }

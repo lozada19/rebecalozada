@@ -30,10 +30,10 @@ const MenuList: React.FC<MenuListProp> = (props: MenuListProp) => {
     <ul className={props.className}>
       {menuItems.map(item => (
         <div>
-          <button className="button-nav" onClick={() => scrollAnimado(item.id)}>
+          <button className="menuList-button-nav" onClick={() => scrollAnimado(item.id)}>
             {item.title}
           </button>
-          <hr className="solid" />
+          <hr className="menuList-solid" />
         </div>
       ))}
     </ul>

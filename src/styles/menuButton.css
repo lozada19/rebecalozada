@@ -4,7 +4,7 @@
   height: fit-content;
 }
 
-.menu {
+.menu-burger {
   position: fixed;
   z-index: 1;
 }
@@ -17,7 +17,7 @@ input[type="checkbox"] {
   opacity: 0;
 }
 
-.line {
+.menu-line-burger {
   position: absolute;
   top: 0;
   width: 35px;
@@ -25,27 +25,27 @@ input[type="checkbox"] {
   background: #f0f2f4;
   transition: all 0.3s ease;
 }
-.line:nth-child(2) {
+.menu-line-burger:nth-child(2) {
   top: 10px;
 }
-.line:nth-child(3) {
+.menu-line-burger:nth-child(3) {
   top: 20px;
 }
 
-#menu:checked ~ .menu #line1 {
+#menu:checked ~ .menu-burger #line1 {
   top: 10px;
   transform: rotate(45deg);
 }
-#menu:checked ~ .menu #line2 {
+#menu:checked ~ .menu-burger #line2 {
   opacity: 0;
 }
-#menu:checked ~ .menu #line3 {
+#menu:checked ~ .menu-burger #line3 {
   top: 10px;
   transform: rotate(-45deg);
 }
 
 @media (min-width: 850px) {
-  .line {
+  .menu-line-burger {
     display: none;
   }
 }

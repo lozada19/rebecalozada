@@ -1,4 +1,4 @@
-.button-nav {
+.menuList-button-nav {
   color: rgb(253, 253, 253);
   background-color: rgba(245, 245, 245, 0);
   border: none;
@@ -10,7 +10,7 @@
   padding-left: 0px;
 }
 
-.button-nav:hover {
+.menuList-button-nav:hover {
   background-color: none;
   color: blueviolet;
 }
@@ -24,13 +24,13 @@ ul button {
   width: 400px;
 }
 
-.solid {
+.menuList-solid {
   border: 0.5px solid white;
   width: 100%;
 }
 
 @media (min-width: 850px) {
-  .button-nav {
+  .menuList-button-nav {
     font-size: 1em;
     font-weight: bold;
     border: none;
@@ -44,7 +44,7 @@ ul button {
     padding: 10px;
   }
 
-  .solid {
+  .menuList-solid {
     display: none;
   }
 }

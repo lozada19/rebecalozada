@@ -14,10 +14,10 @@ const MenuButton: React.FC<MenuButtonProp> = (props: MenuButtonProp) => {
         onClick={() => props.onChecked(!props.checked)}
         checked={props.checked}
       />
-      <label htmlFor="menu" className="menu ">
-        <span id="line1" className="line"></span>
-        <span id="line2" className="line"></span>
-        <span id="line3" className="line"></span>
+      <label htmlFor="menu" className="menu-burger">
+        <span id="line1" className="menu-line-burger"></span>
+        <span id="line2" className="menu-line-burger"></span>
+        <span id="line3" className="menu-line-burger"></span>
       </label>
     </div>
   );

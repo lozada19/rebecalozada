@@ -4,8 +4,8 @@ function AboutMe() {
   return (
     <section id="about-me">
       <div className="container">
-        <div className="img-container"></div>
-        <div className="texto">
+        <div className="about-me-Image"></div>
+        <div className="about-me-texto">
           <h1>Sobre mi</h1>
           <p>
             Soy desarrolladora web recién graduada en Ironhack. Mi misión es

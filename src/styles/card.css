@@ -1,4 +1,4 @@
-.card-a {
+.card-link {
   text-decoration: none;
   color: white;
 }
@@ -9,7 +9,7 @@
   margin: 30px;
 }
 
-.image-project {
+.card-image {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -21,7 +21,7 @@
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-.image-project:hover {
+.card-image:hover {
   background-color: rgb(18, 17, 17);
 }
 
@@ -53,7 +53,7 @@
     position: relative;
   }
 
-  .image-project {
+  .card-image {
     height: 100%;
     width: 100%;
     object-fit: cover;

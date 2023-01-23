@@ -19,23 +19,23 @@ const Navbar = () => {
 
   let navStyle: string;
   if (!isMobile) {
-    navStyle = "menuLarge";
+    navStyle = "navbar-menuLarge";
   } else if (navbarOpen) {
-    navStyle = "showMenu";
+    navStyle = "navbar-showMenu";
   } else {
-    navStyle = "hideMenu";
+    navStyle = "navbar-hideMenu";
   }
 
   return (
     <header>
-      <div className="menu-navbar">
-        <div className="navbar-logo">
+      <div className="navbar-menu">
+        <div className="navbar-container">
           {isMobile ? (
             <MenuButton checked={navbarOpen} onChecked={handleToggle} />
           ) : null}
 
-          <div className="logo2" />
-          <p className="logo">RebLoza</p>
+          <div className="navbar-space" />
+          <p className="navbar-logo">RebLoza</p>
         </div>
 
         <MenuList className={navStyle} onScroll={closeMenu} />

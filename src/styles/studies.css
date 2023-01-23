@@ -1,4 +1,4 @@
-#my-studies {
+#studies {
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -15,12 +15,12 @@
   background-position: center center;
 }
 
-#my-studies h1 {
+#studies h1 {
   margin: 0;
   color: white;
 }
 
-#my-studies p {
+#studies p {
   color: white;
   max-width: 450px;
   margin-left: 10px;
@@ -29,19 +29,19 @@
   font-weight: lighter;
 }
 
-#my-studies .container {
+#studies .container {
   text-align: center;
   padding: 200x 12px;
 }
 
 @media (min-width: 850px) {
 
-  #my-studies .container {
+  #studies .container {
     display: flex;
     justify-content: space-evenly;
   }
 
-  #my-studies .texto2 {
+  #studies .studies-texto {
     width: 50%;
     max-width: 900px;
     text-align: initial;
@@ -51,16 +51,16 @@
     justify-content: center;
   }
 
-  #my-studies h2 {
+  #studies h2 {
     margin-top: 0px;
   }
 
-  #my-studies p {
+  #studies p {
     font-size: 1.5em;
     max-width: 800px;
   }
 
-  #my-studies .image-container {
+  #studies .studies-image {
     background-image: url("images/logo-ironhack.png");
     background-size: cover;
     background-position: center center;

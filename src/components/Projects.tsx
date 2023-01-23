@@ -41,10 +41,10 @@ const projectsItem: ProjectsItem[] = [
 
 const Projects = () => {
   return (
-    <div id="my-project">
+    <div id="project">
       <div className="container">
         <h2>Mis proyectos</h2>
-        <div className="project">
+        <div className="project-card">
           {projectsItem.map(item => (
               <Card
               title={item.title}

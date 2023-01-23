@@ -7,9 +7,9 @@ export type CardProps = {
 
 const Card: React.FC<CardProps> = (props: CardProps) => {
   return (
-    <a href={props.action} className="card-a">
+    <a href={props.action} className="card-link">
     <div className="card">
-      <img className="image-project" src={props.img} />
+      <img className="card-image" src={props.img} />
       <div className="card-content">
         <h3>{props.title}</h3>
       </div>
