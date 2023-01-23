@@ -33,3 +33,38 @@
   text-align: center;
   padding: 200x 12px;
 }
+
+@media (min-width: 850px) {
+
+  #my-studies .container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  #my-studies .texto2 {
+    width: 50%;
+    max-width: 900px;
+    text-align: initial;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #my-studies h2 {
+    margin-top: 0px;
+  }
+
+  #my-studies p {
+    font-size: 1.5em;
+    max-width: 800px;
+  }
+
+  #my-studies .image-container {
+    background-image: url("images/logo-ironhack.png");
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+  }
+}
