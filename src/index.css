@@ -25,12 +25,6 @@ p {
 
 
 
-
-
-
-
-
-
 .showMenu {
   position: fixed;
   top: 40px;
@@ -39,18 +33,9 @@ p {
   background: #020303c4;
   transition: all 200ms;
   overflow: hidden;
-  
+
   padding-right: 30px;
   padding-left: 30px;
-}
-
-ul button {
-  list-style: none;
-  padding: 16px;
-  color: white;
-  cursor: pointer;
-  display: block;
-  width: 400px;
 }
 
 .showMenu ul:hover {
@@ -68,54 +53,17 @@ ul button {
   overflow: hidden;
 }
 
-.botton-burger {
-  background-color: rgba(240, 248, 255, 0);
-  border: none;
-  color: black;
-  width: 42px;
-  height: 42px;
-  padding-left: 8px;
-  padding-top: 10px;
-}
 
-.button-nav {
-  color: rgb(253, 253, 253);
-  background-color: rgba(245, 245, 245, 0);
-  border: none;
-  padding-top: 5px;
-  display: flex;
-  justify-content: flex-start;
-  font-size: 16px;
-  font-weight: bold;
-  padding-left: 0px;
-}
 
-.solid {
-  border: 0.5px solid white;
-  width: 100%;
-}
 
-.button-nav:hover {
-  background-color: none;
-  color: blueviolet;
-}
+
+
+
+
+
+
 
 @media (min-width: 850px) {
-
-  .button-nav {
-    font-size: 1em;
-    font-weight: bold;
-    border: none;
-    box-shadow: none;
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(245, 241, 241);
-    background-color: rgba(255, 0, 0, 0);
-    width: auto;
-    display: flex;
-    padding: 10px;
-  
-  }
 
   .menuLarge {
     display: flex;
@@ -126,9 +74,9 @@ ul button {
 
  
 
-  .solid {
-    display: none;
-  }
+ 
+
+  
 
 }
 

@@ -30,27 +30,29 @@ const Navbar = () => {
     <header>
       <div className="menu-navbar">
         <div className="navbar-logo">
-          {/*<img className="botton-burger" onClick={handleToggle} src={Icon}/>*/}
+          {isMobile ? (
+            <MenuButton checked={navbarOpen} onChecked={handleToggle} />
+          ) : null}
 
-          {isMobile ? <MenuButton checked={navbarOpen} onChecked={handleToggle} /> : null }
-          
           <div className="logo2" />
           <p className="logo">RebLoza</p>
         </div>
 
-        <MenuList className={navStyle} onScroll={closeMenu}/>
-  
+        <MenuList className={navStyle} onScroll={closeMenu} />
       </div>
     </header>
   );
-}
+};
 
-const windowEvent = (event: string, setIsMobile: (isMobile: boolean) => void) => {
+const windowEvent = (
+  event: string,
+  setIsMobile: (isMobile: boolean) => void
+) => {
   window.addEventListener(
     event,
-    () =>  setIsMobile(window.innerWidth < 850),
+    () => setIsMobile(window.innerWidth < 850),
     false
   );
-}
+};
 
 export default Navbar;
