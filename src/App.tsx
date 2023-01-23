@@ -5,7 +5,7 @@ import Navbar from "./components/Navbar";
 
 import Home from "./pages/Home";
 import Projects from "./components/Projects";
-import SobreMi from "./components/SobreMi";
+import AboutMe from "./components/AboutMe";
 import PieDePag from "./components/PieDePag";
 import Estudios from "./components/Estudios";
 
@@ -16,7 +16,7 @@ function App() {
 
       <Home />
 
-      <SobreMi />
+      <AboutMe />
 
       <Estudios/>
 

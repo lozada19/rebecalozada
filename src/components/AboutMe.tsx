@@ -1,6 +1,6 @@
 import React from "react";
 
-function SobreMi() {
+function AboutMe() {
   return (
     <section id="about-me">
       <div className="container">
@@ -19,4 +19,4 @@ function SobreMi() {
   );
 }
 
-export default SobreMi;
+export default AboutMe;
