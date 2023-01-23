@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
 import PieDePag from "./components/PieDePag";
-import Estudios from "./components/Estudios";
+import Studies from "./components/Studies";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
 
       <AboutMe />
 
-      <Estudios/>
+      <Studies/>
 
       <Projects />
 
