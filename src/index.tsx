@@ -5,6 +5,7 @@ import "./styles/card.css"
 import "./styles/home.css"
 import "./styles/aboutMe.css"
 import "./styles/studies.css"
+import "./styles/projects.css"
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
