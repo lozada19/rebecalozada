@@ -52,7 +52,7 @@
   }
 
   #about-me .about-me-Image {
-    background-image: url("images/sticker.webp");
+    background-image: url("images/about-me-sticker.webp");
     background-size: cover;
     background-position: center center;
     height: 400px;

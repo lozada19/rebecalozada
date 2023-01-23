@@ -1,8 +1,8 @@
 import Card from "./Card";
-import commuteImg from "../images/commute2.png";
-import recetaImg from "../images/tu-receta-foto.png";
+import commuteImg from "../images/commute.png";
+import recetaImg from "../images/tu-receta.png";
 import dogyImg from "../images/dogy-events.png";
-import subirImg from "../images/subir-imag3.png";
+import subirImg from "../images/image-uploader.png";
 
 type ProjectsItem = {
   title: string;

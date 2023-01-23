@@ -1,7 +1,7 @@
 import React from "react";
 
-import linkedinLogo from "../images/icons8-linkedin.png";
-import githubLogo from "../images/icons-github.png";
+import linkedinLogo from "../images/icon-linkedin.png";
+import githubLogo from "../images/icon-github.png";
 
 
 function Home() {
