@@ -1,0 +1,45 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  color: white;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("images/pakata.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin: 0;
+}
+
+.hero h5 {
+  font-size: 1em;
+  margin: 0;
+  margin-top: 5px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+}
+
+@media (min-width: 850px) {
+  .hero h1 {
+    font-size: 6em;
+    margin: 0;
+  }
+
+  .hero h5 {
+    font-size: 1.5em;
+  }
+}
