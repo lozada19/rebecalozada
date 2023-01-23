@@ -1,6 +1,6 @@
 import React from 'react'
 
-function PieDePag() {
+function Footer() {
   return (
     <footer>
       <div className='container'>
@@ -10,5 +10,5 @@ function PieDePag() {
   )
 }
 
-export default PieDePag
+export default Footer
 

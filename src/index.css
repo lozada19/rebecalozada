@@ -23,8 +23,6 @@ p {
   font-size: 1.25em;
 }
 
-
-
 header {
   background-color: rgba(0, 0, 0, 0.6);
   width: 100%;
@@ -169,37 +167,6 @@ ul button {
   color: blueviolet;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-footer {
-  background-color: rgb(230, 230, 230);
-}
-
-footer p {
-  margin: 0;
-  padding: 12px;
-  color: rgb(100, 100, 100);
-}
-
-footer .container {
-  height: 70px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media (min-width: 850px) {
   header {
     position: fixed;
@@ -238,8 +205,6 @@ footer .container {
     flex-grow: 2;
   }
 
-
-
   .line {
     display: none;
   }
@@ -248,19 +213,6 @@ footer .container {
     display: none;
   }
 
-  
-
-  
-
- 
-
- 
-
-  
-
-  footer .container {
-    justify-content: center;
-  }
 }
 
 @media (min-width: 1400px) {

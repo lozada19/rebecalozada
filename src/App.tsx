@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Projects from "./components/Projects";
 import AboutMe from "./components/AboutMe";
-import PieDePag from "./components/PieDePag";
+import Footer from "./components/Footer";
 import Studies from "./components/Studies";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
 
       <Projects />
 
-      <PieDePag />
+      <Footer />
     </div>
   );
 }
