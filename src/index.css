@@ -24,62 +24,6 @@ p {
 }
 
 
-
-.showMenu {
-  position: fixed;
-  top: 40px;
-  width: 100%;
-  height: 100vh;
-  background: #020303c4;
-  transition: all 200ms;
-  overflow: hidden;
-
-  padding-right: 30px;
-  padding-left: 30px;
-}
-
-.showMenu ul:hover {
-  background: rgba(243, 238, 238, 0.837);
-}
-
-.hideMenu {
-  position: fixed;
-  padding-left: 0px;
-  top: 40px;
-  width: 0px;
-  height: 100vh;
-  background: #020303c4;
-  transition: all 200ms;
-  overflow: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 850px) {
-
-  .menuLarge {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    flex-grow: 2;
-  }
-
- 
-
- 
-
-  
-
-}
-
 @media (min-width: 1400px) {
   .container {
     max-width: 1700px;
