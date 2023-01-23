@@ -7,6 +7,7 @@ import "./styles/aboutMe.css"
 import "./styles/studies.css"
 import "./styles/projects.css"
 import "./styles/footer.css"
+import "./styles/navbar.css"
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 

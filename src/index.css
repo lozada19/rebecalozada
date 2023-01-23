@@ -23,36 +23,6 @@ p {
   font-size: 1.25em;
 }
 
-header {
-  background-color: rgba(0, 0, 0, 0.6);
-  width: 100%;
-  position: fixed;
-  z-index: 100;
-}
-
-.logo2 {
-  flex-grow: 1;
-}
-
-header .logo {
-  margin: 0;
-  padding: 15px 10px;
-  font-weight: bold;
-  color: blueviolet;
-  font-size: 1.6em;
-}
-
-.navbar-logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.menu-navbar {
-  background-color: rgba(255, 0, 0, 0);
-}
-
-
 .menu {
   position: fixed;
   z-index: 1;
@@ -168,20 +138,6 @@ ul button {
 }
 
 @media (min-width: 850px) {
-  header {
-    position: fixed;
-    width: 100%;
-  }
-
-  .menu-navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    justify-content: space-between;
-    height: 50px;
-  }
 
   .button-nav {
     font-size: 1em;
