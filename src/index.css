@@ -23,50 +23,13 @@ p {
   font-size: 1.25em;
 }
 
-.menu {
-  position: fixed;
-  z-index: 1;
-}
 
-.menuButton {
-  margin-left: 20px;
-  display: flex;
-  height: fit-content;
-}
 
-input[type="checkbox"] {
-  width: 35px;
-  height: 28px;
-  margin: 0px;
-  padding: 0px;
-  opacity: 0;
-}
 
-.line {
-  position: absolute;
-  top: 0;
-  width: 35px;
-  height: 5px;
-  background: #f0f2f4;
-  transition: all 0.3s ease;
-}
-.line:nth-child(2) {
-  top: 10px;
-}
-.line:nth-child(3) {
-  top: 20px;
-}
-#menu:checked ~ .menu #line1 {
-  top: 10px;
-  transform: rotate(45deg);
-}
-#menu:checked ~ .menu #line2 {
-  opacity: 0;
-}
-#menu:checked ~ .menu #line3 {
-  top: 10px;
-  transform: rotate(-45deg);
-}
+
+
+
+
 
 .showMenu {
   position: fixed;
@@ -161,9 +124,7 @@ ul button {
     flex-grow: 2;
   }
 
-  .line {
-    display: none;
-  }
+ 
 
   .solid {
     display: none;
