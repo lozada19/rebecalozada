@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Studies() {
+const Studies = () => {
   return (
     <section id="studies">
     <div className="container">

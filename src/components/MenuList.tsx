@@ -8,8 +8,8 @@ type MenuItem = {
 const menuItems: MenuItem[] = [
   { id: "#Home", title: "Inicio" },
   { id: "#about-me", title: "Sobre mi" },
-  { id: "#my-studies", title: "Estudios" },
-  { id: "#my-project", title: "Proyectos" },
+  { id: "#studies", title: "Estudios" },
+  { id: "#project", title: "Proyectos" },
 ];
 
 export type MenuListProp = {

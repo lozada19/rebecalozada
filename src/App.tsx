@@ -9,7 +9,7 @@ import AboutMe from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Studies from "./components/Studies";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <Navbar />
